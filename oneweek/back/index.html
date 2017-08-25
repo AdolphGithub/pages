@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>- 后台管理</title>
+    <link rel="stylesheet" href="../public/css/bootstrap.css">
+    <style>
+        .wh64{width:64px;height:64px;border-radius: 50%;}
+        .mar_t15{  margin-bottom:15px;}
+        footer{padding:35px 0;text-align: center;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="javascript:;" class="navbar-brand">后台管理</a>
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="javascript:;"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;后台首页</a></li>
+                        <li><a href="javascript:;"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+                        <li><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a></li>
+                        <li><a href="javascript:;"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">admin&nbsp;<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:;"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+                                <li><a href="javascript:;"><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+                                <li><a href="javascript:;"><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+                                <li><a href="javascript:;"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+                                <li><a href="javascript:;"><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <article class="container">
+        <div>
+            <div class="col-md-12 alert alert-danger alert-dismissable fade in" role="alert">
+                <button class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>网站程序有漏洞，急需修复！</h4>
+                <p>当前版本程序(V1.22)存在严重安全问题，容易造成攻击，请即可修复！</p>
+                <button class="btn btn-danger">立即修复</button>
+                <button class="btn btn-default">稍后处理</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">网站数据统计</div>
+                    <div class="panel-body">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>注册项目</th>
+                                <th>今日</th>
+                                <th>昨日</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>注册会员</th>
+                                <td>200</td>
+                                <td>400</td>
+                            </tr>
+                            <tr>
+                                <th>登录会员</th>
+                                <td>4100</td>
+                                <td>5112</td>
+                            </tr>
+                            <tr>
+                                <th>今日发帖</th>
+                                <td>1540</td>
+                                <td>4551</td>
+                            </tr>
+                            <tr>
+                                <th>转载次数</th>
+                                <td>150</td>
+                                <td>110</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">网站热帖</div>
+                    <!--<div class="panel-body">-->
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;泛Mooc职业教育， 效果和就业为王<span class="pull-right">2015/08/08</span></a></li>
+                            <li class="list-group-item"><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;泛Mooc职业教育， 效果和就业为王<span class="pull-right">2015/08/08</span></a></li>
+                            <li class="list-group-item"><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;泛Mooc职业教育， 效果和就业为王<span class="pull-right">2015/08/08</span></a></li>
+                            <li class="list-group-item"><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;泛Mooc职业教育， 效果和就业为王<span class="pull-right">2015/08/08</span></a></li>
+                            <li class="list-group-item"><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;泛Mooc职业教育， 效果和就业为王<span class="pull-right">2015/08/08</span></a></li>
+                            <li class="list-group-item"><a href="javascript:;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;泛Mooc职业教育， 效果和就业为王<span class="pull-right">2015/08/08</span></a></li>
+                        </ul>
+                    <!--</div>-->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        今日访客统计
+                    </div>
+                    <div class="panel-body">
+                        <canvas id="canvas" class="col-md-12" width="497" height="233" style="width: 553px; height: 260px;"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        服务器状态
+                    </div>
+                    <div class="panel-body">
+                        <p>内存使用率：40%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemax="100" aria-valuemin="0" style="width: 40%"></div>
+                        </div>
+                        <p>数据库使用率：20%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemax="100" aria-valuemin="0" style="width:20%"></div>
+                        </div>
+                        <p>磁盘使用率：60%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemax="100" aria-valuemin="0" style="width: 60%;"></div>
+                        </div>
+                        <p>CPU使用率：80%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemax="100" aria-valuemin="0" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        团队留言板
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-7">
+                            <div class="media well">
+                                <div class="media-left">
+                                    <a href="javascript:;"><img src="../backend/back/images/a.png" class="media-object wh64"></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4>卓大哥</h4>
+                                    <p>技术大哥，今晚请把网站程序升级一下哈，现在的系统有漏洞，安全起见！</p>
+                                </div>
+                            </div>
+                            <div class="media well">
+                                <div class="media-body text-right">
+                                    <h4>技术大哥</h4>
+                                    <p>收到，今晚凌晨2点准时升级！</p>
+                                </div>
+                                <div class="media-right">
+                                    <a href="javascript:;"><img src="../backend/back/images/b.png" class="media-object wh64"></a>
+                                </div>
+                            </div>
+                            <div class="media well">
+                                <div class="media-body text-right">
+                                    <h4>技术大哥</h4>
+                                    <p>你先在站点发布一下通知哈！</p>
+                                </div>
+                                <div class="media-right">
+                                    <a href="javascript:;"><img src="../backend/back/images/b.png" class="media-object wh64"></a>
+                                </div>
+                            </div>
+                            <div class="media well">
+                                <div class="media-left">
+                                    <a href="javascript:;"><img src="../backend/back/images/a.png" class="media-object wh64"></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4>卓大哥</h4>
+                                    <p>好嘞。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <lebal for="text1">输入留言内容</lebal>
+                                    <textarea name="text1" id="" cols="10" rows="5" class="form-control" placeholder="请输入留言内容"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default mar_t15">留言</button>
+                            </form>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">团队联系手册</div>
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">站长(李小龙)：<span class="glyphicon glyphicon-phone"></span>13134848615</li>
+                                        <li class="list-group-item">技术(大牛哥)：<span class="glyphicon glyphicon-phone"></span>13456127694</li>
+                                        <li class="list-group-item">推广(张二哥)：<span class="glyphicon glyphicon-phone"></span>13457815482</li>
+                                        <li class="list-group-item">客服(王女士)：<span class="glyphicon glyphicon-phone"></span>13134567782&nbsp;<span class="glyphicon glyphicon-phone-alt"></span>&nbsp;028-888888</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12"></div>
+        </div>
+    </article>
+    <footer class="container">
+        Copyright © 2012-2015  www.maiziedu.com  蜀ICP备13014270号-4
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../public/js/bootstrap.js"></script>
+    <script src="../backend/back/js/Chart.js"></script>
+    <script src="../backend/back/js/script.js"></script>
+</body>
+</html>
