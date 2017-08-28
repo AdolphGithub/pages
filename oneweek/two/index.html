@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻资讯</title>
+    <style>
+        *{margin:0;padding:0;font-size: 10px;color:#333;text-decoration: none;list-style: none;}
+        body{font-size: 1.6rem;}
+        .container{margin: 0 auto;}
+        .header{max-width: 1100px;  padding-top:15px;}
+        .header-logo,.header-title{display: inline-block;}
+        .header-logo{margin-left:15px;}
+        .header-title{margin-left: 5px;}
+        .header-title h1{font-size: 3rem;color:#28905a;line-height: 48px;font-weight: bold;}
+        .header-title p{font-size: 1.6rem;}
+        .header-right{float:right;}
+        .header-right p{font-size: 1.6rem;}
+        .header-right p:last-child{font-size: 1.8rem;line-height: 29px;}
+        .banner{width: 100%;}
+        header nav{width: 100%;background-color: #28905a;margin-top:15px;}
+        header nav ul{max-width: 1100px;}
+        nav li{display: inline-block;min-width: 120px;text-align: center;}
+        nav li:hover{background-color: #5cc18c;}
+        nav li a{font-size: 1.8rem;display:inline-block;color:#FFF;padding:1.6rem 0;}
+        .slide img{width: 100%;}
+        .banner{position:relative;width: 100%;}
+        .search-box{position: absolute;top:60%;text-align: center;width: 100%;}
+        .search-box div{display: inline-block;}
+        .search-box input{border: none;outline: none;font-size: 1.6rem;width: 236px;height: 26.5px;border-radius: 5px;}
+        .search-btn{background: url("../one/img/searchbtn.png") no-repeat;width: 30px;height: 27px;position: absolute;margin-left: 4px;}
+        .news{max-width: 1100px;}
+        .news-title ul{text-align: center;padding:55px 0;}
+        .news-title li{display: inline-block; border: 1px solid #ababab;border-radius: 22px;width: 13.5rem;}
+        .news-title li:nth-child(2){margin:0 30px;}
+        .news-title li a{font-size: 1.8rem;font-weight: bold;line-height: 38px;}
+        .news-content img{width: 40%;vertical-align: middle;}
+
+        .news-content ul{width: 50%;display: inline-block;vertical-align: middle;margin-left: 7rem;}
+        .news-content ul li a{font-size: 1.6rem;display: block;margin-bottom: 10px;}
+        .news-content ul li p{margin-bottom: 10px;}
+        .news-content ul li span{font-size: 1.6rem;display: inline-block;float: right;}
+        .news-content li{border-bottom: 1px dashed #b0b0b0;}
+
+        .news-list{margin-top:100px;}
+        .news-list ul div{display: inline-block;vertical-align: middle;}
+        .news-list .article-date{margin: 31px 86px 31px 0;padding: 23px 0;width:10%;text-align: center;background-color: #EEE;}
+        .article-date strong,.article-date p{font-size: 1.6rem;}
+        .article-info{width: 80%;}
+        .article-info a{font-size: 1.6rem;}
+        .article-info p{font-size: 1.4rem;  color: #878888;margin-top:5px;}
+        .news-list li{border-bottom: 1px dashed #b0b0b0;}
+
+        .pages{margin-top:100px;margin-bottom:20px;}
+        .pages ul{width: 100%;text-align: center;}
+        .pages li{display: inline-block;padding: 0 .5rem;}
+        .pages a{font-size: 1.6rem;color:#878787;}
+        /*.clear{  clear: both;}*/
+
+        footer{width: 100%;background-color: #28905a;}
+        .footer{max-width: 1100px;padding:40px 0;height: 150px;}
+        .footer li{color: #FFFFFF;font-size: 1.6rem;}
+        .footer div,.footer ul{display: inline-block;}
+        .footer div{float: right;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header container">
+            <div class="header-logo">
+                <a href="javascript:;"><img src="../one/img/logo.png" alt=""></a>
+            </div>
+            <div class="header-title">
+                <h1>XXX环保设备有限公司</h1>
+                <p>XXXHUANBAOSHEBEIYOUXIANGONGSI</p>
+            </div>
+            <div class="header-right">
+                <p>全国咨询热线</p>
+                <p>00-000-00000000</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="container">
+                <li><a href="javascript:;">网站首页</a></li>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">工程案例</a></li>
+                <li><a href="javascript:;">新闻资讯</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="banner">
+        <div class="slide">
+            <div><img src="../one/img/banner.jpg" alt=""></div>
+        </div>
+        <div class="search-box">
+            <div>
+                <input type="text" name="search" placeholder="请输入您需要的环保类别">
+            </div>
+            <div class="search-btn"></div>
+        </div>
+    </article>
+    <article class="news container">
+        <div class="news-title">
+            <ul>
+                <li><a href="javascript:;">公司新闻</a></li>
+                <li><a href="javascript:;">行业新闻</a></li>
+                <li><a href="javascript:;">环保知识</a></li>
+            </ul>
+        </div>
+        <div class="news-content">
+            <img src="../one/img/pro1.jpg">
+            <ul>
+                <li>
+                    <a href="javascript:;">苹果供应商工厂涉嫌偷排废水 松江河道污染 <span>2017-06-01</span></a>
+                    <p>
+                        文汇报讯 (记者史博臻 通讯员任书建)就在公众把目光聚焦于企业地下排污之时，“钻空子”的不良企业却大张旗鼓地向河道...
+                    </p>
+                </li>
+                <li>
+                    <a href="javascript:;">苹果供应商工厂涉嫌偷排废水 松江河道污染 <span>2017-06-01</span></a>
+                    <p>
+                        文汇报讯 (记者史博臻 通讯员任书建)就在公众把目光聚焦于企业地下排污之时，“钻空子”的不良企业却大张旗鼓地向河道...
+                    </p>
+                </li>
+                <li>
+                    <a href="javascript:;">苹果供应商工厂涉嫌偷排废水 松江河道污染 <span>2017-06-01</span></a>
+                    <p>
+                        文汇报讯 (记者史博臻 通讯员任书建)就在公众把目光聚焦于企业地下排污之时，“钻空子”的不良企业却大张旗鼓地向河道...
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="news-list">
+            <ul>
+                <li>
+                    <div class="article-date">
+                        <strong>01</strong>
+                        <p>2017/08/27</p>
+                    </div>
+                    <div class="article-info">
+                        <a href="javascript:;">如何获取健康</a>
+                        <p>随着生活水平的不断提高，大家对健康饮用水的关注度越来越高，但对如何获取健康饮用水，还会存有很多疑惑。近期开能环保将以“水博士”名义就相关问题进行...</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-date">
+                        <strong>01</strong>
+                        <p>2017/08/27</p>
+                    </div>
+                    <div class="article-info">
+                        <a href="javascript:;">如何获取健康</a>
+                        <p>随着生活水平的不断提高，大家对健康饮用水的关注度越来越高，但对如何获取健康饮用水，还会存有很多疑惑。近期开能环保将以“水博士”名义就相关问题进行...</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-date">
+                        <strong>01</strong>
+                        <p>2017/08/27</p>
+                    </div>
+                    <div class="article-info">
+                        <a href="javascript:;">如何获取健康</a>
+                        <p>随着生活水平的不断提高，大家对健康饮用水的关注度越来越高，但对如何获取健康饮用水，还会存有很多疑惑。近期开能环保将以“水博士”名义就相关问题进行...</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-date">
+                        <strong>01</strong>
+                        <p>2017/08/27</p>
+                    </div>
+                    <div class="article-info">
+                        <a href="javascript:;">如何获取健康</a>
+                        <p>随着生活水平的不断提高，大家对健康饮用水的关注度越来越高，但对如何获取健康饮用水，还会存有很多疑惑。近期开能环保将以“水博士”名义就相关问题进行...</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-date">
+                        <strong>01</strong>
+                        <p>2017/08/27</p>
+                    </div>
+                    <div class="article-info">
+                        <a href="javascript:;">如何获取健康</a>
+                        <p>随着生活水平的不断提高，大家对健康饮用水的关注度越来越高，但对如何获取健康饮用水，还会存有很多疑惑。近期开能环保将以“水博士”名义就相关问题进行...</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-date">
+                        <strong>01</strong>
+                        <p>2017/08/27</p>
+                    </div>
+                    <div class="article-info">
+                        <a href="javascript:;">如何获取健康</a>
+                        <p>随着生活水平的不断提高，大家对健康饮用水的关注度越来越高，但对如何获取健康饮用水，还会存有很多疑惑。近期开能环保将以“水博士”名义就相关问题进行...</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="pages">
+            <ul>
+                <li><a href="javascript:;">上一页</a></li>
+                <li><a href="javascript:;">1</a></li>
+                <li><a href="javascript:;">2</a></li>
+                <li><a href="javascript:;">3</a></li>
+                <li><a href="javascript:;">下一页</a></li>
+            </ul>
+        </div>
+    </article>
+    <footer>
+        <div class="footer container">
+            <ul>
+                <li>网站首页 | 关于我们 | 工程案例 | 新闻资讯 | 联系我们</li>
+                <li>地址：湖北省大冶市XXX大道XXX办公室</li>
+                <li>电话：0714-8868331</li>
+                <li>邮编：435100</li>
+            </ul>
+            <div><img src="../one/img/qccode.png" alt=""></div>
+        </div>
+    </footer>
+</body>
+</html>
